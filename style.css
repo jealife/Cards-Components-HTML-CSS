@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body{
+    background:#fcfcfc;
+}
+main {
+  padding: 3rem 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 100vh;
+  height: 100dvh;
+}
+button {
+  border: none;
+  padding: 1rem 1rem;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: clip;
+  box-shadow: 10px 15px 30px #00000025;
+}
+.product_card {
+  height: 430px;
+  width: 350px;
+}
+
+.product_card:hover .image_product {
+  transform: scale(1.3);
+}
+
+.image_product {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s cubic-bezier(0, 0.87, 0.43, 1.1);
+}
+
+.card_content_product {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(0deg, #0101017f 0%, #01010100 40%);
+}
+
+.product {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  opacity:1;
+}
+
+.card_content_product {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.product .product_name {
+  color: #ffffff;
+}
+.product .price_product {
+  color: #e7e2e2;
+}
+
+.card_content_product .btn_product {
+  border-radius: 5rem;
+  outline: #fcfcfc 2px solid;
+  color: #fcfcfc;
+  background: transparent;
+  position: absolute;
+  margin-top: 1rem;
+  bottom: -5rem;
+  cursor:pointer;
+  transition: bottom .6s cubic-bezier(0.18, 0.89, 0.3, 1.24)
+}
+
+.card_content_product .btn_product:hover{
+    transition: background-color .3s ease-in-out;
+    background-color: #0101017f;
+}
+.card_content_product:hover .btn_product {
+    bottom: 5rem;
+}
+.card_content_product:hover .product {
+    opacity:0;
+    transition: opacity .3s ease-in-out;
+    /* margin-top: 200px; */
+}
+
+.testimonial_card {
+  display: none;
+}
