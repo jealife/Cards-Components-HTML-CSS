@@ -9,14 +9,13 @@ body{
     background:#000820;
 }
 main {
-  padding: 3rem 5rem 2rem;
+  padding: 5rem  2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 4.5rem;
-  height: 100vh;
-  height: 100dvh;
+  height: max-content;
 }
 button {
   border: none;
