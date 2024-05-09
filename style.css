@@ -6,6 +6,7 @@
 }
 body{
     background:#fcfcfc;
+    background:#000820;
 }
 main {
   padding: 3rem 5rem 2rem;
@@ -13,7 +14,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 4.5rem;
   height: 100vh;
   height: 100dvh;
 }
@@ -27,12 +28,12 @@ a {
 .card {
   position: relative;
   border-radius: 1rem;
-  overflow: clip;
   box-shadow: 10px 15px 30px #00000025;
 }
 .product_card {
   height: 430px;
-  width: 350px;
+  width: 320px;
+  overflow: clip;
 }
 
 .product_card:hover .image_product {
@@ -106,5 +107,51 @@ a {
 }
 
 .testimonial_card {
-  display: none;
+  /* display: none; */
+  /* color: #e7e2e2; */
+  position: relative;
+  padding: 5rem 2rem 5rem;
+  background-color: #e7e2e2;
+  background-color: #324271;
+  width: 395px;
+  transition:background-color .3s ease-in-out;
+
+}
+.testimonial_card:hover{
+  background-color: #46588f;
+}
+.profile_container{
+  overflow: hidden;
+  width: 95px;
+  height: 95px;
+  border-radius: 99rem;
+  outline: 2px solid #a4a6b9;
+  box-shadow: 10px 15px 30px #00000025;
+}
+.image_profile{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scale: 1.6;
+}
+.profile_container{
+  position: absolute;
+  top: -3rem;
+}
+.testimonial_content{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.testimonial_content>h3{
+  line-height: 1.5;
+  /* color: #26282d; */
+  color: #dee1e8;
+}
+.testimonial_content .testimonial_description{
+  line-height: 1.5;
+  color: #383838;
+  color: #a4a6b9;
 }
