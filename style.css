@@ -14,7 +14,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4.5rem;
+  gap: 6rem;
   height: max-content;
 }
 button {
