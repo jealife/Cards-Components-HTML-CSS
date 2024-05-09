@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  padding: 3rem 1.25rem;
+  padding: 0rem 1.25rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +34,7 @@ section{
   max-width: 1180px;
   border-radius: 36px;
   background-color: #1d2a55ba;
-  padding: 6rem .80rem;
+  padding: 0rem .80rem;
   width: 100%;
   min-height: 80vh;
   min-height: 80dvh;
@@ -43,8 +43,9 @@ section{
 .cards {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 6rem;
+  padding: 0  2rem 4rem;
 }
 
 nav {
@@ -53,7 +54,7 @@ nav {
   max-width: 798px;
   padding: 1rem;
   background-color: #1d2a55ba;
-  border-radius: 16px;
+  border-radius: 16rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -228,6 +229,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  padding: 4rem 1rem;
 }
 .step_header{
   width: 100%;
@@ -295,7 +297,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 4rem 1.25rem;
   gap: 3.25rem;
 
 }
@@ -382,5 +384,8 @@ a {
     
   grid-template-columns: 1fr ;
   gap: 4rem;
+  }
+  .step2{
+    flex-direction: column;
   }
 }
