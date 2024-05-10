@@ -43,9 +43,9 @@ section{
 .cards {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   gap: 6rem;
-  padding: 0  2rem 4rem;
+  padding: 4rem 1rem;
 }
 
 nav {
@@ -255,7 +255,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  padding:  2rem;
+  padding: 2 1rem;
 }
 
 .step{
@@ -377,6 +377,12 @@ a {
 }
 /* ************  Responsive   ********* */
 @media (max-width: 991.98px){
+  main {
+
+    padding: 4rem 1.25rem 4rem;
+
+  }
+
   .cards{
     flex-direction: column;
   }
