@@ -435,6 +435,7 @@ h2 {
 .about_content1>p {
   column-count: 2;
   line-height: 1.5;
+  color: #a3adc4;
 }
 
 /* ========================================================================== */
@@ -471,6 +472,7 @@ gap: 1rem;
 }
 .about_content2>p {
   line-height: 1.5;
+  color: #a3adc4;
 }
 .left{
   display: flex;
