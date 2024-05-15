@@ -20,21 +20,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <link rel='stylesheet'
-        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <link rel='stylesheet'
-        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="title">C-CO</div>
+            <div class="logo">C-CO</div>
             <div class="linktab">
-                <div class="links" id="navigation">
+                <div class="humberger" id="humberger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="links " id="navigation " >
                     <a href="#cards">Cards</a>
                     <a href="#steps">Steps</a>
                     <a href="#about">About</a>
+                    <a href="#signIn">Sign In</a>
                 </div>
             </div>
         </nav>
@@ -211,21 +214,56 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image about 1" srcset="">
-                    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image about 2" srcset="">
-                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image about 3" srcset="">
-                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image about 4" srcset="">
+                    <img src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image about 1" srcset="">
+                    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image about 2" srcset="">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image about 3" srcset="">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image about 4" srcset="">
                 </div>
 
             </div>
         </section>
 
-        
+        <div class="form" id="signIn">
+            <div class="form_container">
+                <form action="">
+                    <div class="form_content">
+                        <h2>Sign Up</h2>
+                        <div><input type="text" name="name" id="name" placeholder="Username"></div>
+                        <div><input type="Email" name="Email" id="name" placeholder="Email"></div>
+                        <div><input type="password" name="password" id="name" placeholder="Password"></div>
+                        <div id="radio">
+                            <input type="radio" name="radio" id="radio">
+                            <span>I agree all attachments in <a href="#">Terms & Condistions</a></span>
+                        </div>
+                        <div class="validate">
+                            <input type="submit" value="SIGN UP">
+                            <span>Already have account ? <a href="#">Login</a></span>
+                        </div>
+                    </div>
+                </form>
+                <div class="platform_signUp">
+                    <span class="or">OR</span>
+                    <span>Sign up with social platforms</span>
+                    <div class="social_links">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                        <a href=""><i class='bx bxl-google-plus'></i></a>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </main>
 
-
+    <script>
+        
+    </script>
 </body>
 
 </html>
