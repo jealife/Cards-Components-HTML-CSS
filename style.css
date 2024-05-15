@@ -601,6 +601,15 @@ form a{
 }
 .validate>input {
   width: max-content;
+  background-color: #2d5ec2;
+  color: #dee1e8;
+  cursor: pointer;
+  transition: background .3s  ease-in-out;
+}
+.validate>input:hover{
+  background: #4d80e4; 
+  box-shadow: 5px 5px 20px #3668dc8e;
+
 }
 
 
