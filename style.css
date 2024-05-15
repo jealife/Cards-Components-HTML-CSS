@@ -703,7 +703,7 @@ form a{
     padding: 2rem 1rem;
   }
   .form{
-    padding: .5rem;
+    padding: 0rem;
   }
   .validate {
     flex-direction: column;
