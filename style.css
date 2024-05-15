@@ -9,7 +9,7 @@ html{
 }
 html,
 body {
-  
+  overflow: clip;
   scroll-behavior: smooth !important;
 }
 
@@ -259,6 +259,7 @@ a {
 
 h2 {
   font-size: xx-large;
+  text-wrap: balance;
 }
 
 .steps {
